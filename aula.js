@@ -15,5 +15,5 @@
 // alert(mensagem)
 
 //Número 3
-let color = vermelho
-switch
+//let color = vermelho
+//switch
