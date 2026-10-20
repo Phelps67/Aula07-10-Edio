@@ -45,3 +45,11 @@
 // for (const fruta of frutas) {
 //     console.log("Fruta de vez:", fruta);
 // }
+
+// -------------------------------------------------
+
+let j = 0;
+while (j < 3) {
+    console.log("Valor de j:", j);
+    j++;
+}
