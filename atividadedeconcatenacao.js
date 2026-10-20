@@ -17,8 +17,31 @@
 // saldo -= 20
 // saldo *= 2 
 // saldo /= 4
+// saldo += 2
 // console.log("Saldo Final:, saldo")
 // alert(saldo)
 
 // -------------------------------------------------
 
+// const idade = 110
+// const mensagem = idade >18 ? 'Pode' : 'Nao'
+// alert(mensagem)
+
+// -------------------------------------------------
+
+// const color = 'vermelho';
+// switch (color) {
+//     case 'vermelho': alert('Pare')
+//     break;
+//     case 'amarelo': alert('Atenção');
+//     break;
+//     case 'verde': alert('Siga');
+//     break;
+// }
+
+// -------------------------------------------------
+
+// const frutas = ['uva', 'pera', 'maçã'];
+// for (const fruta of frutas) {
+//     console.log("Fruta de vez:", fruta);
+// }
