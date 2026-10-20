@@ -65,10 +65,25 @@
 
 // -------------------------------------------------
 
-const nums = [1, 2, 3, 4];
-const triplo = nums.map(n => n * 3);
-console.log(triplo);
+// const nums = [1, 2, 3, 4];
+// const triplo = nums.map(n => n * 3);
+// console.log(triplo);
 
-const idades = [12, 17, 18, 22, 15, 30];
-const maiores = idades.filter(i => i >= 18);
-console.log(maiores);
+// const idades = [12, 17, 18, 22, 15, 30];
+// const maiores = idades.filter(i => i >= 18);
+// console.log(maiores);
+
+// -------------------------------------------------
+
+const comidas = ["banana", "maçã", "uva", "limão", "abobora", "beterraba", "rabanete"];
+const comidafruta = ["banana", "maçã", "uva", "limão"];
+const frutas = comidas.map();
+const legumes = comidas.map();
+console.log("frutas", frutas);
+console.log("legumes", legumes);
+
+// const salarios = [1200, 50, 100, 1350, 300, 1450];
+// const salariosAlto = salarios.filter(salario => salario >= 1000);
+// const salariosBaixo = salarios.filter(salario => salario < 999);
+// console.log("Salarios Altos", salariosAlto)
+// console.log("Salarios Baixos", salariosBaixo)
