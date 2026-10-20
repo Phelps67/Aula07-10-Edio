@@ -48,8 +48,27 @@
 
 // -------------------------------------------------
 
-let j = 0;
-while (j < 3) {
-    console.log("Valor de j:", j);
-    j++;
-}
+// let j = 0;
+// while (j < 3) {
+//     console.log("Valor de j:", j);
+//     j++;
+// }
+
+// -------------------------------------------------
+
+// let contador = 10;
+// while (contador > 0) {
+//     console.log("Contagem:", contador);
+//     contador--;
+// }
+// console.log("Decolar!");
+
+// -------------------------------------------------
+
+const nums = [1, 2, 3, 4];
+const triplo = nums.map(n => n * 3);
+console.log(triplo);
+
+const idades = [12, 17, 18, 22, 15, 30];
+const maiores = idades.filter(i => i >= 18);
+console.log(maiores);
